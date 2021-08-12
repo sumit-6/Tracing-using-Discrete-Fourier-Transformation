@@ -1,4 +1,4 @@
-file = open(r"C:\Users\verma\OneDrive\Desktop\IMP_TextFiles\file5.txt","r")
+file = open(r"Text_File_Location","r")
 i = 0
 k = 0
 count = 0
@@ -135,6 +135,6 @@ for line in file:
 file.close()
 Coordinates = Coordinates + """]
 """
-f = open(r"C:\Users\verma\OneDrive\Desktop\IMP_TextFiles\file5_co.txt","w")
+f = open(r"Text_File_Location","w")
 f.write(Coordinates)
 f.close() 
